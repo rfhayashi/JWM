@@ -13,4 +13,12 @@ docs/apidocs
 /macos/cmake-build-debug
 
 # jvm crash logs
-hs_err_*.log
+hs_err_*.log# Devenv
+.devenv*
+devenv.local.nix
+
+# direnv
+.direnv
+
+# pre-commit
+.pre-commit-config.yaml
